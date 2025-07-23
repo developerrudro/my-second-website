@@ -6,3 +6,22 @@ body{
   max-width: 1024px;
   margin: 0 auto;
 }
+.deal-1{
+  background-image: url(../assets/deal-bloom.png);
+  background-repeat: no-repeat;
+}
+.deal-2{
+  background-image: url(../assets/deal-ana.png);
+   background-repeat: no-repeat;
+}
+.deal-3{
+  background-image: url(../assets/deal-zabo.png);
+  background-repeat: no-repeat;
+  
+}
+.contact-me{
+ background-image: url(../assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
