@@ -1,26 +1,43 @@
-*{
+* {
   box-sizing: border-box;
-  
 }
-body{
+body {
   max-width: 1024px;
   margin: 0 auto;
 }
-.deal-1{
+
+p,a{
+  font-family: 'Inter', sans-serif;
+}
+
+
+.noto-serif-normal{
+  font-family: 'Noto Serif', serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+.inter-font {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.deal-1 {
   background-image: url(../assets/deal-bloom.png);
   background-repeat: no-repeat;
 }
-.deal-2{
+.deal-2 {
   background-image: url(../assets/deal-ana.png);
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
-.deal-3{
+.deal-3 {
   background-image: url(../assets/deal-zabo.png);
   background-repeat: no-repeat;
-  
 }
-.contact-me{
- background-image: url(../assets/news-letter-bg.png);
+.contact-me {
+  background-image: url(../assets/news-letter-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;

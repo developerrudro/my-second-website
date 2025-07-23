@@ -4,6 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <!-- font-awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
     integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
@@ -14,7 +20,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
+<body class="bg-[#F5F8FF]">
   <!-- Header section -->
   <header class="flex justify-between items-center">
     <div class="logo ">
@@ -38,7 +44,7 @@
     <!-- bannar section -->
     <section class="bannar flex items-center my-56 justify-between">
       <div class="bannar-info">
-        <h2 class="text-6xl font-bold">ALWAYS <span class="text-[#E95A08]">FRESH <br>FLOWER</span></h2>
+        <h2 class="text-6xl font-bold noto-serif-normal">ALWAYS <span class="text-[#E95A08]">FRESH <br>FLOWER</span></h2>
         <p class="w-[65%] text-[#8987A1]">Indulge your senses with the beauty and fragrance of our fresh flower shop.
           From classic roses to exotic
           blooms, we
@@ -52,7 +58,7 @@
     <!-- card section -->
     <section class="cards-section">
       <div class="card-info text-center">
-        <h2 class="text-5xl font-bold"> Our
+        <h2 class="text-5xl font-bold noto-serif-normal"> Our
           <span class="text-[#E95A08]">Plants</span>
         </h2>
         <p class="text-[#8987A1] text-center w-[65%] mx-auto">Welcome to my flower shop!
@@ -126,7 +132,7 @@
     <section class="lover-flower flex mt-14 gap-14 mt-[120px]">
       <div class="lover-img"><img class="w-full" src="./assets/flower-store.png" alt=""></div>
       <div class="lover-info">
-        <h2 class="text-5xl font-bold text-[#000000] ">Flower & Plants <br> Lover</h2>
+        <h2 class="text-5xl font-bold text-[#000000]  noto-serif-normal ">Flower & Plants <br> Lover</h2>
         <ul>
           <li class="mb-4">Indulge your senses with the beauty and fragrance of our fresh flower shop.
             From classic roses to exotic
@@ -147,7 +153,7 @@
     <!-- letest deals section -->
     <section class="letest-deals my-[120px]">
       <div class="deals-info text-center">
-        <h2 class="text-5xl font-bold"> Letest
+        <h2 class="text-5xl font-bold noto-serif-normal"> Letest
           <span class="text-[#E95A08]">Deals</span>
         </h2>
         <p class="text-[#8987A1] text-center w-[65%] mx-auto">Welcome to my flower shop!
@@ -161,29 +167,69 @@
       <div class="deals-img flex gap-7 mt-[120px]">
         <div class="deal-section">
           <div class="deal-1 w-[366px] h-[206px] rounded-3xl text-center grid content-center mb-4 ">
-            <h2 class="text-xl font-bold text-white ">60% Off | Bloom Plant</h2>
+            <h2 class="text-xl font-bold text-white noto-serif-normal ">60% Off | Bloom Plant</h2>
             <a class="text-[16px] font-bold text-white " href="">Shop Now</a>
           </div>
           <div class="deal-2 w-[366px] h-[206px] rounded-3xl grid content-center text-center">
-            <h2 class="text-xl font-bold text-white ">30% Off | Ana Plant</h2>
+            <h2 class="text-xl font-bold text-white noto-serif-normal ">30% Off | Ana Plant</h2>
             <a class="text-[16px] font-bold text-white " href="">Shop Now</a>
           </div>
         </div>
         <div class="deal-3  w-[750px] h-[420px] rounded-3xl text-center grid content-center">
-          <h2 class="text-4xl font-bold text-white ">25% Off | Zabo Plant</h2>
+          <h2 class="text-4xl font-bold text-white noto-serif-normal">25% Off | Zabo Plant</h2>
           <a class="text-[28px] font-bold text-white " href="Shop Now"> Shop Now </a>
         </div>
       </div>
     </section>
-
-
-
-    <!--Email section  -->
-    <section class="contact-me w-[1024px] h-[533px] text-center grid content-center gap-5 rounded-2xl">
-      <h2 class="text-5xl font-bold text-white">Join the colorful Bunch</h2>
-      <form action="" class="flex mx-auto"><input type="email" name="" id="" class="px-5 py-2 bg-white w-[644px] rounded-bl-[10px] rounded-tl-[10px]" placeholder="Write email"><button class="bg-[#E95A08]  py-3 w-3xs text-[19px] font-semibold text-white   rounded-tr-[10px] rounded-br-[10px]">Subscribe</button></form>
-    </section>
   </main>
+
+  <!-- footer section -->
+  <footer>
+    <!--Email section  -->
+    <section class="contact-me w-[1024px] h-[533px] text-center grid content-center gap-5 rounded-tl-[10px] rounded-tr-[10px]">
+      <h2 class="text-5xl font-bold text-white noto-serif-normal">Join the colorful Bunch</h2>
+      <form action="" class="flex mx-auto"><input type="email" name="" id=""
+          class="px-5 py-2 bg-white w-[644px] rounded-bl-[10px] rounded-tl-[10px]" placeholder="Write email"><button
+          class="bg-[#E95A08]  py-3 w-3xs text-[19px] font-semibold text-white   rounded-tr-[10px] rounded-br-[10px]">Subscribe</button>
+      </form>
+    </section>
+
+    <section class="w-[1024px] h-[400px] bg-white px-[160px] py-[50px] flex gap-36">
+      <div class="footer-info">
+        <img class="w-[135px] h-20" src="./assets/logo.png" alt="">
+        <p class="text-[#8987A1] text-[22px]">Indulge your senses with the beauty and fragrance of our fresh flower
+          shop.</p>
+      </div>
+      <div class="footer-nav-manu flex gap-11">
+        <div class="footer-nav">
+          <ul>
+            <li class="mb-[16px]"><a class="text-[16px] text-[#6B7280] " href="">Home</a></li>
+            <li class="mb-[16px]"><a class="text-[16px] text-[#6B7280]" href="">About Us</a></li>
+            <li class="mb-[16px]"><a class="text-[16px] text-[#6B7280]" href="">Blog</a></li>
+            <li class="mb-[16px]"><a class="text-[16px] text-[#6B7280]" href="">FAQ</a></li>
+            <li class="mb-[16px]"><a class="text-[16px] text-[#6B7280]" href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <ul>
+            <li class="mb-[16px]"><a class="text-[16px] text-[#6B7280]" href="">Features</a></li>
+            <li class="mb-[16px]"><a class="text-[16px] text-[#6B7280]" href="">Pricing</a></li>
+            <li class="mb-[16px]"><a class="text-[16px] text-[#6B7280]" href="">Privacy Pilicy</a></li>
+            <li class="mb-[16px]"><a class="text-[16px] text-[#6B7280]" href="">Terms of Service</a></li>
+            <li class="mb-[16px]"><a class="text-[16px] text-[#6B7280]" href="">Help Center</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-social-link flex gap-4">
+        <img class="w-9 h-9" src="./assets/icon-linkedin.png" alt="">
+        <img class="w-9 h-9" src="./assets/icon-twitter.png" alt="">
+        <img class="w-9 h-9" src="./assets/icon-facebook.png" alt="">
+        <img class="w-9 h-9" src="./assets/icon-youtube.png" alt="">
+      </div>
+      </div>
+    </section>
+
+  </footer>
 </body>
 
 </html>
