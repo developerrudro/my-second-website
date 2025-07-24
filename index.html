@@ -20,20 +20,25 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="bg-[#F5F8FF]">
+<body class=" bg-[#F5F8FF] ] 
+  "
+
+
   <!-- Header section -->
-  <header class="flex justify-between items-center">
+  <header class="flex justify-between items-center ">
     <div class="logo ">
-      <img class="w-[135px] h-20" src="./assets/logo.png" alt="main logo">
+      <img class="w-[135px] h-20 ml-2.5" src="./assets/logo.png" alt="main logo">
     </div>
     <!-- Navbar -->
     <div class="navbar">
       <nav>
-        <ul class="flex gap-5">
-          <li><a href="">Home</a></li>
-          <li><a href="" class="text-[#8987A1]">Shop</a></li>
-          <li><a class="text-[#8987A1]" href="">About</a></li>
-          <li><a href=""><i class="fa-solid fa-cart-shopping"></i> Cart ($49)</a></li>
+        <ul class="flex gap-5 mt-7" >
+          <div class="flex gap-5"><li class=""><a href="">Home</a></li>
+          <li class=""><a href="" class="text-[#8987A1]">Shop</a></li>
+          <li class=""><a class="text-[#8987A1]" href="">About</a></li>
+        </div>
+          <li><a href="" ><i class="fa-solid fa-cart-shopping "></i> Cart ($49)</a>
+          </li>
         </ul>
     </div>
     </nav>
@@ -42,21 +47,22 @@
   <!-- main section -->
   <main>
     <!-- bannar section -->
-    <section class="bannar flex items-center my-56 justify-between">
-      <div class="bannar-info">
-        <h2 class="text-6xl font-bold noto-serif-normal">ALWAYS <span class="text-[#E95A08]">FRESH <br>FLOWER</span></h2>
-        <p class="w-[65%] text-[#8987A1]">Indulge your senses with the beauty and fragrance of our fresh flower shop.
+    <section class="bannar flex items-center my-20 justify-between ">
+      <div class="bannar-info mt-[50px] ">
+        <h2 class="lg:text-[3rem] sm:text-2xl font-bold noto-serif-normal  ">ALWAYS <span class="text-[#E95A08]">FRESH <br>FLOWER</span>
+        </h2>
+        <p class="lg:w-[65%] text-[#8987A1]">Indulge your senses with the beauty and fragrance of our fresh flower shop.
           From classic roses to exotic
           blooms, we
           offer a wide variety of fresh flowers that are perfect for any occasion.</p>
       </div>
       <div class="bannar-img">
-        <img class="w-full" src="./assets/hero-flower.png" alt="">
+        <img class="w-full " src="./assets/hero-flower.png" alt="">
       </div>
     </section>
 
     <!-- card section -->
-    <section class="cards-section">
+    <section class="cards-section mx-auto ">
       <div class="card-info text-center">
         <h2 class="text-5xl font-bold noto-serif-normal"> Our
           <span class="text-[#E95A08]">Plants</span>
@@ -66,8 +72,57 @@
           tulips,
           and more. </p>
       </div>
-      <div class="cards grid grid-cols-4 gap-8  mt-11">
-        <div class="card w-3xs">
+      <div class="cards grid grid-cols-4 ml-7   mt-11">
+        <div class="card w-[270px] h-[484px]">
+          <img class="rounded-[6px]" src="./assets/sample-flower-image.png" alt="" class="">
+          <p class="text-center text-[22px] text-[#111111]">Lilly Blossom</p>
+          <h3 class="text-center text-[22px] font-bold">20 USD</h3>
+          <button class="bg-[#E95A08] px-12 py-2
+           text-[19px] font-semibold text-white ">ADD TO CART</button>
+        </div>
+        <div class="card w-[270px] h-[484px]">
+          <img class="rounded-[6px]" src="./assets/sample-flower-image.png" alt="" class="">
+          <p class="text-center text-[22px] text-[#111111]">Lilly Blossom</p>
+          <h3 class="text-center text-[22px] font-bold">20 USD</h3>
+          <button class="bg-[#E95A08] px-12 py-2
+          w-[270px] text-[19px] font-semibold text-white ">ADD TO CART</button>
+        </div>
+        <div class="card w-[270px] h-[484px]">
+          <img class="rounded-[6px]" src="./assets/sample-flower-image.png" alt="" class="">
+          <p class="text-center text-[22px] text-[#111111]">Lilly Blossom</p>
+          <h3 class="text-center text-[22px] font-bold">20 USD</h3>
+          <button class="bg-[#E95A08] px-12 py-2
+         w-[270px] text-[19px] font-semibold text-white ">ADD TO CART</button>
+        </div>
+        <div class="card w-[270px] h-[484px]">
+          <img class="rounded-[6px]" src="./assets/sample-flower-image.png" alt="" class="">
+          <p class="text-center text-[22px] text-[#111111]">Lilly Blossom</p>
+          <h3 class="text-center text-[22px] font-bold">20 USD</h3>
+          <button class="bg-[#E95A08] px-12 py-2
+       w-[270px] text-[19px] font-semibold text-white ">ADD TO CART</button>
+        </div>
+        <div class="card w-[270px] h-[484px]">
+          <img class="rounded-[6px]" src="./assets/sample-flower-image.png" alt="" class="">
+          <p class="text-center text-[22px] text-[#111111]">Lilly Blossom</p>
+          <h3 class="text-center text-[22px] font-bold">20 USD</h3>
+          <button class="bg-[#E95A08] px-12 py-2
+         w-[270px] text-[19px] font-semibold text-white ">ADD TO CART</button>
+        </div>
+        <div class="card w-[270px] h-[484px]">
+          <img class="rounded-[6px]" src="./assets/sample-flower-image.png" alt="" class="">
+          <p class="text-center text-[22px] text-[#111111]">Lilly Blossom</p>
+          <h3 class="text-center text-[22px] font-bold">20 USD</h3>
+          <button class="bg-[#E95A08] px-12 py-2
+         w-[270px] text-[19px] font-semibold text-white ">ADD TO CART</button>
+        </div>
+        <div class="card w-[270px] h-[484px]">
+          <img class="rounded-[6px]" src="./assets/sample-flower-image.png" alt="" class="">
+          <p class="text-center text-[22px] text-[#111111]">Lilly Blossom</p>
+          <h3 class="text-center text-[22px] font-bold">20 USD</h3>
+          <button class="bg-[#E95A08] px-12 py-2
+         w-[270px] text-[19px] font-semibold text-white ">ADD TO CART</button>
+        </div>
+        <div class="card w-[270px] h-[484px]">
           <img class="rounded-[6px]" src="./assets/sample-flower-image.png" alt="" class="">
           <p class="text-center text-[22px] text-[#111111]">Lilly Blossom</p>
           <h3 class="text-center text-[22px] font-bold">20 USD</h3>
@@ -76,63 +131,30 @@
         </div>
 
 
-        <div class="card w-3xs">
-          <img class="rounded-[6px]" src="./assets/sample-flower-image.png" alt="" class="">
-          <p class="text-center text-[22px] text-[#111111]">Lilly Blossom</p>
-          <h3 class="text-center text-[22px] font-bold">20 USD</h3>
-          <button class="bg-[#E95A08] px-12 py-2
-                  w-3xs ">ADD TO CART</button>
-        </div>
-        <div class="card w-3xs">
-          <img class="rounded-[6px]" src="./assets/sample-flower-image.png" alt="" class="">
-          <p class="text-center text-[22px] text-[#111111]">Lilly Blossom</p>
-          <h3 class="text-center text-[22px] font-bold">20 USD</h3>
-          <button class="bg-[#E95A08] px-12 py-2
-                  w-3xs ">ADD TO CART</button>
-        </div>
-        <div class="card w-3xs">
-          <img class="rounded-[6px]" src="./assets/sample-flower-image.png" alt="" class="">
-          <p class="text-center text-[22px] text-[#111111]">Lilly Blossom</p>
-          <h3 class="text-center text-[22px] font-bold">20 USD</h3>
-          <button class="bg-[#E95A08] px-12 py-2
-                  w-3xs ">ADD TO CART</button>
-        </div>
-        <div class="card w-3xs">
-          <img class="rounded-[6px]" src="./assets/sample-flower-image.png" alt="" class="">
-          <p class="text-center text-[22px] text-[#111111]">Lilly Blossom</p>
-          <h3 class="text-center text-[22px] font-bold">20 USD</h3>
-          <button class="bg-[#E95A08] px-12 py-2
-                  w-3xs ">ADD TO CART</button>
-        </div>
-        <div class="card w-3xs">
-          <img class="rounded-[6px]" src="./assets/sample-flower-image.png" alt="" class="">
-          <p class="text-center text-[22px] text-[#111111]">Lilly Blossom</p>
-          <h3 class="text-center text-[22px] font-bold">20 USD</h3>
-          <button class="bg-[#E95A08] px-12 py-2
-                  w-3xs ">ADD TO CART</button>
-        </div>
-        <div class="card w-3xs">
-          <img class="rounded-[6px]" src="./assets/sample-flower-image.png" alt="" class="">
-          <p class="text-center text-[22px] text-[#111111]">Lilly Blossom</p>
-          <h3 class="text-center text-[22px] font-bold">20 USD</h3>
-          <button class="bg-[#E95A08] px-12 py-2
-                  w-3xs ">ADD TO CART</button>
-        </div>
-        <div class="card w-3xs">
-          <img class="rounded-[6px]" src="./assets/sample-flower-image.png" alt="" class="">
-          <p class="text-center text-[22px] text-[#111111]">Lilly Blossom</p>
-          <h3 class="text-center text-[22px] font-bold">20 USD</h3>
-          <button class="bg-[#E95A08] px-12 py-2
-                  w-3xs ">ADD TO CART</button>
+       
         </div>
       </div>
     </section>
 
     <!-- flower lover section -->
-    <section class="lover-flower flex mt-14 gap-14 mt-[120px]">
-      <div class="lover-img"><img class="w-full" src="./assets/flower-store.png" alt=""></div>
+    <section class="lover-flower flex mt-48 gap-12 items-center ml-1">
+      <div class="lover-img  max-w-md ">
+
+
+        <img class="rounded-md" src="./assets/flower-store.png" alt="overlay image">
+      
+  
+
+
+
+        </div>
+       
+      
+
+        
+ 
       <div class="lover-info">
-        <h2 class="text-5xl font-bold text-[#000000]  noto-serif-normal ">Flower & Plants <br> Lover</h2>
+        <h2 class="text-5xl font-bold text-[#000000]  noto-serif-normal ">Flower & Plants Lover</h2>
         <ul>
           <li class="mb-4 list-disc">Indulge your senses with the beauty and fragrance of our fresh flower shop.
             From classic roses to exotic
@@ -148,15 +170,16 @@
             offer a wide variety of fresh flowers that are perfect for any occasion.</li>
         </ul>
       </div>
+     
     </section>
 
     <!-- letest deals section -->
-    <section class="letest-deals my-[120px]">
+    <section class="letest-deals my-[120px] ">
       <div class="deals-info text-center">
-        <h2 class="text-5xl font-bold noto-serif-normal"> Letest
+        <h2 class="text-5xl font-bold noto-serif-normal"> Latest
           <span class="text-[#E95A08]">Deals</span>
         </h2>
-        <p class="text-[#8987A1] text-center w-[65%] mx-auto ">Welcome to my flower shop!
+        <p class="text-[#8987A1] text-center w-[65%] mx-auto my-6">Welcome to my flower shop!
           Here, every flower tells a story. I offer a variety of fresh and beautiful flowers—roses, lilies, sunflowers,
           tulips,
           and more. </p>
@@ -164,37 +187,42 @@
 
 
 
-      <div class="deals-img flex gap-7 mt-[120px]">
+      <div class="deals-img flex gap-4 ml-[80px] ">
         <div class="deal-section">
-          <div class="deal-1 w-[366px] h-[206px] rounded-3xl text-center grid content-center mb-4 ">
-            <h2 class="text-xl font-bold text-white noto-serif-normal ">60% Off | Bloom Plant</h2>
-            <a class="text-[16px] font-bold text-white underline  " href="">Shop Now</a>
+          <div class="deal-1 bg-[url(./assets/deal-bloom.png)] bg-no-repeat w-[360px] h-[200px] rounded-2xl text-center grid content-center mb-4 relative ">
+            <div class="bg-black/40 absolute inset-0 rounded-2xl z-10  "></div>
+            <h2 class="text-[1.3rem] font-bold text-white noto-serif-normal  z-20 ">60% Off | Bloom Plant</h2>
+            <a class="text-[1rem] font-bold text-white underline z-20 " href="">Shop Now</a>
           </div>
-          <div class="deal-2 w-[366px] h-[206px] rounded-3xl grid content-center text-center">
-            <h2 class="text-xl font-bold text-white noto-serif-normal ">30% Off | Ana Plant</h2>
-            <a class="text-[16px] font-bold text-white underline  " href="">Shop Now</a>
+
+          <div class="deal-2 bg-[url(./assets/deal-ana.png)] w-[360px] h-[200px] rounded-2xl grid content-center text-center relative">
+            <div class="bg-black/50 absolute inset-0 rounded-2xl z-10 "></div>
+            <h2 class="text-[1.3rem] font-bold text-white noto-serif-normal z-20 ">30% Off | Ana Plant</h2>
+            <a class="text-[1em] font-bold text-white underline z-20 " href="">Shop Now</a>
           </div>
         </div>
-        <div class="deal-3  w-[750px] h-[420px] rounded-3xl text-center grid content-center">
-          <h2 class="text-4xl font-bold text-white noto-serif-normal">25% Off | Zabo Plant</h2>
-          <a class="text-[28px] font-bold text-white underline " href="Shop Now"> Shop Now </a>
+        <div class="deal-3 bg-[url(./assets/deal-zabo.png)]  w-[750px] h-[420px] rounded-3xl text-center grid content-center relative">
+          <div class="bg-black/40 absolute inset-0 rounded-2xl z-10 "></div>
+          <h2 class="text-[1.3rem] font-bold text-white noto-serif-normal z-20">25% Off | Zabo Plant</h2>
+          <a class="text-[1.2rem] font-bold text-white underline z-20 " href="Shop Now"> Shop Now </a>
         </div>
       </div>
     </section>
   </main>
 
   <!-- footer section -->
-  <footer>
+  <footer id="footer">
     <!--Email section  -->
-    <section class="contact-me w-[1024px] h-[533px] text-center grid content-center gap-5 rounded-tl-[10px] rounded-tr-[10px]">
+    <section
+      class="contact-me bg-[url(./assets/news-letter-bg.png)] bg-no-repeat bg-cover w-[1280px] h-[533px] text-center grid content-center gap-5 rounded-tl-[10px] rounded-tr-[10px]">
       <h2 class="text-5xl font-bold text-white noto-serif-normal">Join the colorful Bunch</h2>
-      <form action="" class="flex mx-auto"><input type="email" name="" id=""
-          class="px-5 py-2 bg-white w-[644px] rounded-bl-[10px] rounded-tl-[10px]" placeholder="Write email"><button
+      <form action="" class="flex mx-auto "><input type="email" name="" id=""
+          class="px-5 py-2 bg-white w-[644px] rounded-bl-[10px] rounded-tl-[10px] input-form" placeholder="Write email"><button
           class="bg-[#E95A08]  py-3 w-3xs text-[19px] font-semibold text-white   rounded-tr-[10px] rounded-br-[10px]">Subscribe</button>
       </form>
     </section>
 
-    <section class="w-[1024px] h-[400px] bg-white px-[160px] py-[50px] flex gap-36">
+    <section class="w-[1280px] h-[400px] bg-white px-[180px] py-[50px] flex gap-20 footer">
       <div class="footer-info">
         <img class="w-[135px] h-20" src="./assets/logo.png" alt="">
         <p class="text-[#8987A1] text-[22px]">Indulge your senses with the beauty and fragrance of our fresh flower

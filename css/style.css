@@ -1,17 +1,18 @@
 * {
-  box-sizing: border-box;
+  box-sizing:border-box;
 }
 body {
-  max-width: 1024px;
+  max-width: 1280px;
   margin: 0 auto;
+ 
 }
 
-p,a{
+p,
+a {
   font-family: 'Inter', sans-serif;
 }
 
-
-.noto-serif-normal{
+.noto-serif-normal {
   font-family: 'Noto Serif', serif;
   font-optical-sizing: auto;
 
@@ -24,21 +25,108 @@ p,a{
   font-style: normal;
 }
 
-.deal-1 {
-  background-image: url(../assets/deal-bloom.png);
-  background-repeat: no-repeat;
+
+
+
+
+@media screen and (max-width: 576px) {
+  body{
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .navbar div{
+ display: none;
+ }
+  .bannar{
+    flex-direction: column-reverse;
+    margin-top: 60px;
+   
+  }
+  .lover-info{
+    width: 358px;
+    height: auto;
+    margin-left: 80px;
+  }
+ .bannar-info{
+  margin-left: 20px;
+ }
+  .bannar-img img{
+    margin-left: 12px;
+  }
+  .cards{
+    grid-template-columns: repeat(2,1fr);
+    margin-left:30px;
+    gap: 10px;
+
+  }
+  .card{
+    width: 165px;
+    height: 341px;
+  }
+  .card button{
+   width: 165px;
+   height: 50px;
+   font-size: 16px;
+   font-weight: 600;
+   padding: 6px 12px;
+  }
+  .card p,h3{
+ font-size: 16px;
+  }
+  .lover-info h2, li{
+    margin: 10px auto;
+    padding: 0 20px;
+
+  }
+  .lover-info h2{
+    font-size: 24px;
+
+  }
+  .lover-flower{
+    flex-direction: column;
+    margin: 0px auto;
+  }
+
+  .lover-img img{
+  padding-left:32px;
+  }
+  .deal-3{
+    width: 360px;
+    height: 200px;
+  }
+  .deals-img{
+    flex-direction: column;
+   margin: 50px 25px;
+
+  }
+  .footer{
+    flex-direction:column;
+    width: 390px;
+    height: 600px;
+    padding: 15px;
+     margin: 0 auto;
+   }
+   .contact-me{
+    width: 393px;
+    height: 276px;
+    
+   }
+   .input-form{
+    width: 218px;
+    height: 50px;
+   }
+   .contact-me button{
+    width: 103px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+   }
+  .contact-me h2{
+    font-size: 20px;
+  }
+  footer{
+    margin-left: 5px;
+  }
 }
-.deal-2 {
-  background-image: url(../assets/deal-ana.png);
-  background-repeat: no-repeat;
-}
-.deal-3 {
-  background-image: url(../assets/deal-zabo.png);
-  background-repeat: no-repeat;
-}
-.contact-me {
-  background-image: url(../assets/news-letter-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 auto;
-}
+ 
